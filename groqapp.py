@@ -12,7 +12,7 @@ os.environ["GROQ_API_KEY"] = api_key
 client = Groq(api_key=api_key)
 
 # Streamlit app
-st.title("Topic Explanation with Audio")
+st.title("AI TUTOR")
 
 # Text input for the topic
 topic = st.text_input("Please enter the topic you want to know about:")
